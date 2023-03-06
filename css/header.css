@@ -119,6 +119,8 @@ li:hover a::after{
     color: var(--color-alt);
 }
 
+/* media */
+
 @media (max-width: 650px){
     html{
         font-size: 14px;
