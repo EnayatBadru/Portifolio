@@ -459,13 +459,19 @@
     align-items: center;
     justify-content: space-evenly;
     flex-wrap: wrap; 
+    /* padding: 10px 0; */
+}
+
+.suporte > div{
+    position: relative;
+    top: 50px;
 }
 
 .suporte div{
     display: flex;
     flex-direction: column;
     gap: .5em;
-    width: 200px;
+    width: 150px;
     height: 300px;
     /* background: #000; */
 }
